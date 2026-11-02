@@ -1,0 +1,53 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# Environment files
+.env
+.env.backup
+.env.production
+.env.*.local
+
+# Laravel storage & cache
+/storage/*.key
+/storage/pail
+/bootstrap/cache/*.php
+/public/hot
+/public/storage
+/public/build
+
+# Testing
+.phpunit.result.cache
+.phpunit.cache
+/coverage
+/build
+
+# Package manager logs
+npm-debug.log
+yarn-error.log
+auth.json
+
+# Laravel tooling
+Homestead.json
+Homestead.yaml
+.vagrant
+/.fleet
+/.nova
+/.zed
+
+# Laravel Sail / Docker overrides
+docker-compose.override.yml
+
+# IDE & editor files
+/.idea
+/.vscode
+/.vs
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
