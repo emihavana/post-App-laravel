@@ -50,7 +50,7 @@
                 <section class="lg:col-span-1">
                     <div class="rounded-2xl border border-blue-100 bg-white p-6 shadow-sm lg:sticky lg:top-8">
                         <h2 class="text-lg font-semibold text-blue-900">Write a new post</h2>
-                        <p class="mt-1 text-sm text-slate-500">Share something with everyone.</p>
+                        <p class="mt-1 text-sm text-slate-500">Share something with everyone. in form of a post</p>
 
                         <form action="{{ route('createPost') }}" method="POST" class="mt-5 space-y-4">
                             @csrf
